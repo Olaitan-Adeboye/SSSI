@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Shelter Story Song Initiative</title>
+  <link rel="stylesheet" href="Styles/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Shelter Story Song Initiative</div>
+    <ul class="nav-links">
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="get_involved.html">Get Involved</a></li>
+      <li><a href="contact_us.html">Contact</a></li>
+     
+    </ul>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Whether you have questions, want to volunteer, or just say hello — reach out below.</p>
+
+      <form id="contactForm" class="contact-form">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+<p id="formMessage" class="form-message"></p>
+
+
+      <div class="socials">
+        <p>Follow us on social media</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/17K6F7pUS5/" target="_blank" class="Facebook"> <img src="images/fb2.png" alt="Facebook"> </i></a>
+          <a href="https://www.instagram.com/shelterstorysong?igsh=MTBlMHNyeXJnZW1weA==" target="_blank" class="Instagram"><img src="images/IG1.jpeg" alt="Instagram"></a>
+          <a href="https://www.linkedin.com/company/shelter-story-song-initiative-sssi/" target="_blank" class="LinkedIn"><img src="images/lkdin2.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p class="tag">Shelter Story Song Initiative</p>
+    <p>© 2025 SSSI. All rights reserved.</p>
+  </footer>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("X9KcC1WckDObbZlTy"); // EmailJS Public Key
+  })();
+</script>
+
+<script src="Java_stuff/contact.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background:#008080;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #FF6F61;
+}
+
+/* Content */
+.partner-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.partner-container h2 {
+  font-size: 2rem;
+  color:#008080;
+  margin-bottom: 20px;
+}
+
+.account-box {
+  background: #fff;
+  border: 2px solid #008080;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.account-box p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.site-footer {
+  background: #008080;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.site-footer .btn {
+  background: #FF6F61;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.site-footer .btn:hover {
+  background: #008080;
+}
