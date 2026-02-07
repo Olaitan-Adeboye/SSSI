@@ -1,6 +1,9 @@
 {
+  "version": 2,
+  "builds": [
+    { "src": "homepage.html", "use": "@vercel/static" }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/homepage.html" }
   ]
 }
-
