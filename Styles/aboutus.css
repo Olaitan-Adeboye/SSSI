@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: #333333;
+  background: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #008080;
+  padding: 2rem 2%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #FF6F61
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #FF6F61;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #eef3f8;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sections */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10%;
+}
+p {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 2.0;
+  font-family: 'Poppins', sans-serif;
+}
+section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.about-text, .story-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.about-img, .story-img {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Numbers Section */
+.numbers {
+  text-align: center;
+  background: #fff;
+  padding: 3rem 10%;
+}
+
+.numbers h2 {
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: #eef3f8;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #008080;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #008080;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img, .story-img, 
+  .about-text, .story-text {
+    padding: 1rem 0;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background: #0073e6;
+    position: absolute;
+    top: 60px;
+    right: 10%;
+    display: none;
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+}
